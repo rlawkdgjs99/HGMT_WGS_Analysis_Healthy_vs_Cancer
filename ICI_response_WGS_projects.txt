@@ -1,0 +1,49 @@
+## HGMT 데이터베이스 내 ICI 반응성 메타데이터 포함 WGS 프로젝트 목록
+## 생성일: 2026-02-22
+## 목적: ICI Responder vs Non-Responder 마이크로바이옴 분석용
+
+#---------------------------------------------------------------
+# 순수 WGS 프로젝트 (7개)
+#---------------------------------------------------------------
+# Project_ID	Runs	Cancer_Type	ICI_Target	Journal	Year	Description
+PRJEB22893	25	Melanoma	Anti-PD-1	Science	2018	Wargo group. R vs NR. Ruminococcaceae enriched in R
+PRJEB22863	127	NSCLC/RCC	Anti-PD-1	Science	2018	Routy et al. Akkermansia muciniphila associated with response
+PRJNA397906	39	Melanoma	ICI therapy	Neoplasia	2017	Frankel. Melanoma patients receiving ICI
+PRJEB43119	165	Melanoma	ICI (multi-cohort)	Nature Medicine	2022	PRIMM study. 5 cohorts cross-validation
+PRJNA751792	338	NSCLC	Anti-PD-1	Nature Medicine	2022	Derosa. Akkermansia predictive biomarker validation
+PRJNA1023797	499	NSCLC	ICI	Cell	2024	TOPOSCORE. 245 discovery + 254 validation cohort
+PRJEB49516	106	Rare cancers	Ipi+Nivo (combo)	Nature Medicine	2024	Multi-cancer combination ICI (ipilimumab + nivolumab)
+
+#---------------------------------------------------------------
+# 16S + WGS 혼합 프로젝트 (8개)
+#---------------------------------------------------------------
+# Project_ID	Runs	Cancer_Type	ICI_Target	Journal	Year	Description
+PRJNA399742	81	Melanoma	Anti-PD-1	Science	2018	Gopalakrishnan/Matson. R vs NR + FMT experiment
+PRJNA302832	78	Melanoma	Ipilimumab (Anti-CTLA-4)	Nature Communications	2017	Chaput. Pre-ipilimumab microbiome
+PRJNA762360	50	Melanoma	Anti-PD-1	Nature Medicine	2022	McCulloch. R vs NR + irAE prediction
+PRJNA541981	54	Melanoma	Immunotherapy	Genome Medicine	2019	Peters. Pre-therapy microbiome vs response
+PRJNA770295	605	Melanoma	Anti-PD(L)-1	Science	2021	Spencer. Dietary fiber/probiotics + ICI response
+PRJNA615114	114	GI Cancer	Anti-PD-1/PD-L1	Cancer Immunology Research	2020	Peng. GI tract cancer R vs NR
+PRJEB26531	260	NSCLC	ICI + Oxaliplatin	Nature Microbiology	2021	Kim. B. bifidum synergy with ICI
+PRJNA720145	10	CRC	Pembrolizumab (Cohort C)	Nature Microbiology	2022	Small cohort, CRC with pembrolizumab
+
+#---------------------------------------------------------------
+# Project ID만 (분석 파이프라인용)
+#---------------------------------------------------------------
+# Pure WGS:
+PRJEB22893
+PRJEB22863
+PRJNA397906
+PRJEB43119
+PRJNA751792
+PRJNA1023797
+PRJEB49516
+# 16S + WGS:
+PRJNA399742
+PRJNA302832
+PRJNA762360
+PRJNA541981
+PRJNA770295
+PRJNA615114
+PRJEB26531
+PRJNA720145
